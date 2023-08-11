@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+}
+.sidebar{
+    background-color: lightgray;
+}
+.ant-layout-content{
+    background-color: black;
+}
+.loginForm{
+    background-color:#555555;
+    width: 95%;
+    margin-left: 20px;
+}
+#textScenario::placeholder{
+    color:#555555;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.label-scenario{
+    /* position: absolute;
+    width: 35px;
+    height: 17px;
+    left: 10px;
+    top: 10px; 
+    /* font-family: 'Aileron'; */
+    /* font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0ch;
+    line-height: 17px;
+    display: flex;
+    align-items: center; */
+    color: #ffffff;
+  }
+  .ant-form-item-explain-error{
+    font-size: 12px;
+  }
+  :where(.css-dev-only-do-not-override-19gw05y).ant-form-item .ant-form-item-label >label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+    color: #555555;
+  }
+  .ant-select-selector{
+    background-color: black;
+    color: #555555;
+  }
+  :where(.css-dev-only-do-not-override-19gw05y).ant-select-single.ant-select-show-arrow .ant-select-selection-item, :where(.css-dev-only-do-not-override-19gw05y).ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+    color: #555555;
+  }
+  :where(.css-dev-only-do-not-override-19gw05y).ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    background-color: black;
+  }
+  :where(.css-dev-only-do-not-override-19gw05y).ant-select .ant-select-arrow {
+    color: #555555;
+  }
+  .ant-select-dropdown{
+    background-color: black;
+    color: #555555;
+  }
+  .ant-select-item-option-content {
+    background-color: black;
+    color: #555555;
+  }
+  :where(.css-dev-only-do-not-override-19gw05y).ant-select-dropdown .ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+    background-color: black;
+    color: #555555;
+  }
+  :where(.css-dev-only-do-not-override-19gw05y).ant-table-wrapper .ant-table-thead >tr>th, :where(.css-dev-only-do-not-override-19gw05y).ant-table-wrapper .ant-table-thead >tr>td {
+    background-color: #555555;
+    color: #ffffff;
+  }
+  :where(.css-dev-only-do-not-override-19gw05y).ant-table-wrapper .ant-table-thead >tr>th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before, :where(.css-dev-only-do-not-override-19gw05y).ant-table-wrapper .ant-table-thead >tr>td:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+    position: absolute;
+    top: 50%;
+    inset-inline-end: 0;
+    width: 1px;
+    height: 1px;
+    background-color:#555555;
+}
+:where(.css-dev-only-do-not-override-19gw05y).ant-table-wrapper .ant-table {
+   border-radius: 0px;
+}
+:where(.css-dev-only-do-not-override-19gw05y).ant-table-wrapper table {
+    width: 100%;
+    border-radius:0px;
+    /* background-color: #555555; */
+}
+.ant-empty-normal {
+    margin-block: -5px;
+}
